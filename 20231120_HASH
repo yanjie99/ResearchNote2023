@@ -48,3 +48,24 @@ block reward
 coinbase transaction
 
 每一个区块可产生50BTC，21w个区块后到25BTC，再过21w产生12.5BTC
+
+transaction-based ledger
+UTXO: Unspent Transaction Output
+
+account-based ledger 
+
+Bernulli trail: a random experiment with binary outcome
+Bernoulli process: a sequence of independent Bernoulli trails
+memoryless
+Poisson process
+exponential distribution
+
+Bitcoin is secured by mining
+
+irrevocable ledger
+
+The Bitcoin network 
+application layer: Bitcoin Block chain
+network layer: P2P Overlay Network
+Simple, robust, but not efficient
+flooding
