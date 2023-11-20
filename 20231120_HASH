@@ -2,3 +2,5 @@
 What are Hash functions: A hash function is simply a function that takes in input value, and from that input creates an output value deterministic of the input value.
 For any x input value, you will always receive the same y output value whenever the hash function is run.
 Note: Hashes are often used in this context of varifying information without revealing it to the party that is verifying.
+
+A Proof of Work algorithm (PoW) is how new Blocks are created or mined on the blockchain. The goal of PoW is to discover a number which solves a problem. The number must be difficult to find but easy to verify--computationally speaking--by anyone on the network.
