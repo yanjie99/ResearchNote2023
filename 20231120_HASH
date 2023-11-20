@@ -4,8 +4,31 @@ For any x input value, you will always receive the same y output value whenever 
 Note: Hashes are often used in this context of varifying information without revealing it to the party that is verifying.
 
 A Proof of Work algorithm (PoW) is how new Blocks are created or mined on the blockchain. The goal of PoW is to discover a number which solves a problem. The number must be difficult to find but easy to verify--computationally speaking--by anyone on the network.
+Difficult to solve but easy to velify.
 
 Crypto-currency
 cryptographic hash function: (1) collision resistance (collision free). [x != y, H(x) = H (y)]   
                              (2) hiding. [x, H(x); but H(x) can not to x]
 Digital commitment (Digital equivalent of a sealed envelope) 
+                             (3) puzzle friendly. H(x+nounce)
+
+SHA256 (Secure Hash Algorithm)
+
+ 去中心化账户 (public key, private key) 
+asymmetric encrytion algorithm
+encryption key
+签名用private key， 发送用public key
+
+hash pointers
+block chain is a linked list using hash pointers
+
+genesis block,.........,most recent block
+tamper-evident log
+
+Merkle tree (Binary tree)
+
+Proof of membershiip
+Proof of inclusion
+
+Sorted Merkle Tree
+
