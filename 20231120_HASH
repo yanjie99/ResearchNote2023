@@ -37,3 +37,14 @@ block body: transaction list
 
 full node (fully velidating node)
 light node gghb
+
+Distributed consensus: distributed hash table
+
+Consensus in BitCoin
+membership, hyperledger, fabric
+sybil attack 女巫攻击
+
+block reward
+coinbase transaction
+
+每一个区块可产生50BTC，21w个区块后到25BTC，再过21w产生12.5BTC
