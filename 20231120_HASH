@@ -1,0 +1,4 @@
+2023-11-20
+What are Hash functions: A hash function is simply a function that takes in input value, and from that input creates an output value deterministic of the input value.
+For any x input value, you will always receive the same y output value whenever the hash function is run.
+Note: Hashes are often used in this context of varifying information without revealing it to the party that is verifying.
