@@ -10,7 +10,7 @@ Crypto-currency
 cryptographic hash function: (1) collision resistance (collision free). [x != y, H(x) = H (y)]   
                              (2) hiding. [x, H(x); but H(x) can not to x]
 Digital commitment (Digital equivalent of a sealed envelope) 
-                             (3) puzzle friendly. H(x+nounce)
+                             (3) puzzle friendly. H(x+nonce)
 
 SHA256 (Secure Hash Algorithm)
 
@@ -32,3 +32,8 @@ Proof of inclusion
 
 Sorted Merkle Tree
 
+block header: version, hash root previous block header, merkle root hash, target, nonce
+block body: transaction list
+
+full node (fully velidating node)
+light node gghb
